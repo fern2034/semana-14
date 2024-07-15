@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://via.placeholder.com/1600x900'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: rgba(63, 81, 181, 0.9);
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 20;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(40, 53, 147, 0.9);
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    max-width: 800px;
+    max-height: 9000px;
+    margin: 20px auto;
+    padding: 0 30px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.post {
+    margin-bottom: 40px;
+}
+.post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.post h2 {
+    color: #3f51b5;
+}
+.post p {
+    line-height: 1.6;
+}
+footer {
+    background-color: rgba(63, 81, 181, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+}
+.redes {
+    text-align: center;
+    margin-top: 50px;
+}
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.button i {
+    margin-right: 8px;
+}
